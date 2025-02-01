@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skewed Divs</title>
+  <style>
+    body {
+      margin:0;
+      height: 100vh;
+      background: #EBE77E;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    }
+    div{
+      background:#DE817E;
+      width:160px;
+      height:70px;
+    }
+    .t{
+      transform:skew(-40deg)
+    }
+    .b{
+      transform:skew(40deg)
+    }
+  </style>
+</head>
+<body>
+  <div class='t'></div>
+  <div class='b'></div>
+</body>
+</html>
+
